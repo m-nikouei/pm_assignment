@@ -8,7 +8,7 @@ The program has two parts. The main part includes mongoCode.py, stringP.py, feat
 
 Python 2.7.xx and latest version of mongoDB is needed to run the program. We also suggest NLTK 3.2.3 and above as version 3.2.2 has a bug which will trigger an IndexError on the program. scikit-learn is also needed. The program is tested on version 0.19.2. 
 
-The program also needs the path to the folder of json data files. Agin, these input files are not provided in this repo. The user can provide the path as a command line argument at start time. If the argument is not provided, the program asks for it at the beginning of its run. 
+The program also needs the path to the folder of json data files. Again, these input files are not provided in this repo. The user can provide the path as a command line argument at start time. If the argument is not provided, the program asks for it at the beginning of its run. 
 
 The folder containing the code needs to have a subfolder named pickles. The program outputs the pickle file containing the serialized model to this folder.
 
