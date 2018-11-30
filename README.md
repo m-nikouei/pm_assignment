@@ -1,14 +1,14 @@
 # Stack Exchange Posts Analysis 
 
-This python program analyzes stack exchange posts and creates a classification model for 5 categories of posts: astronomy, aviation, beer, outdoors, pets.
+This python program analyzes stack exchange posts and creates a classification model for 5 categories of posts: astronomy, aviation, beer, outdoors, pets. Input data is not provided in this repo. 
 
 The program has two parts. The main part includes mongoCode.py, stringP.py, featureReductnClassification.py, main.py. This does all the analysis and at the end creates a pickle file of our model. The second part is a small script in file useModel.py to test user inputs against the pickle model.  
  
 ## Requirements
 
-Python 2.7.xx is needed to run the program. We also suggest NLTK 3.2.3 and above as version 3.2.2 has a bug which will trigger an IndexError on the program. scikit-learn is also needed. The program is tested on version 0.19.2.
+Python 2.7.xx and latest version of mongoDB is needed to run the program. We also suggest NLTK 3.2.3 and above as version 3.2.2 has a bug which will trigger an IndexError on the program. scikit-learn is also needed. The program is tested on version 0.19.2. 
 
-The program also needs the path to the folder of json data files. The user can provide the path as a command line argument at start time. If the argument is not provided, the program asks for it at the beginning of its run. 
+The program also needs the path to the folder of json data files. This files are not provided in this repo. The user can provide the path as a command line argument at start time. If the argument is not provided, the program asks for it at the beginning of its run. 
 
 The folder containing the code needs to have a subfolder named pickles. The program outputs the pickle file containing the serialized model to this folder.
 
